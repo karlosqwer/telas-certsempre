@@ -1,0 +1,172 @@
+/* Importando a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+/* Reset básico para remover padding e margem */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #2e2e2e;
+  border: none;
+}
+
+/* Estilo principal do body para centralizar o conteúdo */
+body {
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Estilo da barra de navegação */
+nav {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+nav .nav__logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-decoration: none;
+}
+
+/* Container principal que contém todo o conteúdo */
+.container {
+  max-width: 400px;
+  padding: 2rem;
+  margin: auto;
+  display: grid;
+  color: var(--text-dark);
+  z-index: 10;
+}
+
+.wave-leaft {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.wave-rigth {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+}
+/* Cabeçalho com o código do erro e mensagem */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.container h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+/* Estilo para o elemento de vídeo */
+.container video {
+  width: 100%; /* Mantém o vídeo com largura total do container */
+  max-width: 600px; /* Aumenta o tamanho máximo para 600px */
+  margin: auto; /* Centraliza o vídeo */
+}
+
+
+/* Rodapé contendo a mensagem informativa e o botão */
+.footer {
+  display: grid;
+  gap: 2rem;
+  place-content: baseline;
+}
+
+/* Texto informativo no rodapé */
+.footer p {
+  font-variation-settings: 1rem;
+}
+
+/* Estilo para o botão de retorno */
+.footer button {
+  color: #ffff;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #a0d711;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  text-wrap: nowrap;
+}
+
+/* Alteração de cor ao passar o mouse sobre o botão */
+.footer button:hover {
+  background-color: black;
+  transform: scale(1.1)
+}
+
+nav .nav__logo img {
+  width: 120px;
+  height: auto;
+}
+
+@media (min-width: 640px) {
+  nav .nav__logo img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav .nav__logo img {
+    width: 180px;
+  }
+}
+
+/* Estilos para telas maiores (tablet) */
+@media (min-width: 640px) {
+  nav {
+    max-width: 1000px;
+  }
+  .container {
+    max-width: 1200px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .container video {
+    max-width: 550px;
+    grid-area: 1/1/3/2;
+  }
+  .footer {
+    max-width: 300px;
+  }
+}
+
+/* Estilos para telas maiores (desktop) */
+@media (min-width: 1024px) {
+  .container {
+    column-gap: 5rem;
+  }
+  .header h1 {
+    font-size: 6rem;
+  }
+  .header h3 {
+    font-size: 2.5rem;
+  }
+}
