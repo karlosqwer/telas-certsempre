@@ -1,27 +1,28 @@
-![Tela de Erro 404 - Certsempre Automação](![404](https://github.com/user-attachments/assets/068c5950-81f0-41a0-af42-a7929b52d90e)
-)
+
+![404](https://github.com/user-attachments/assets/4b65fb9a-b1f7-4c85-978c-9378bb3f684a)
 
 # Telas Certsempre Automação
 
-Este repositório contém a tela de erro 404 desenvolvida para o projeto da **Certsempre Automação**. O objetivo é proporcionar uma experiência de usuário clara e amigável, orientando os visitantes quando uma página não é encontrada.
+Bem-vindo ao repositório da **Certsempre Automação**! Este projeto foi desenvolvido para atender a uma necessidade crucial de usabilidade: comunicar de forma eficiente e amigável quando uma página solicitada não é encontrada. A tela de erro 404 aqui apresentada combina design moderno com funcionalidade intuitiva, proporcionando uma experiência agradável e direta para o usuário.
 
-## Demonstração
+## 🖥️ Demonstração ao Vivo
 
-O projeto possui um deploy pelo GitHub Pages, que você pode acessar [aqui](https://karlosqwer.github.io/telas-certsempre/).
+Veja o projeto em funcionamento por meio do [GitHub Pages](https://karlosqwer.github.io/telas-certsempre/).
 
-## Funcionalidades
+## ✨ Principais Funcionalidades
 
-- **Tela de erro 404 personalizada:** Um design moderno e intuitivo, garantindo que o usuário compreenda a situação e seja incentivado a voltar para a página inicial.
-- **Layout Responsivo:** Adaptado para dispositivos móveis e desktops, mantendo uma interface consistente e funcional em qualquer tela.
-- **Estilo Visual Agradável:** Uso de cores suaves e ilustrações para tornar a mensagem mais amigável e acessível.
+- **Experiência de Usuário Clara e Amigável:** Esta tela de erro 404 foi projetada para suavizar a frustração dos usuários ao se depararem com uma página inexistente, incentivando o retorno à página inicial de forma prática.
+- **Design Profissional e Moderno:** A interface é limpa, com um estilo visual cativante que incorpora cores suaves e elementos gráficos cuidadosamente escolhidos.
+- **Responsividade:** A tela se adapta a diferentes dispositivos, garantindo uma experiência consistente e atraente tanto em desktops quanto em dispositivos móveis.
+- **Atenção ao Detalhe:** Elementos como o botão de retorno à página inicial e a mensagem personalizada foram desenhados para facilitar a navegação e orientar o usuário com clareza.
 
-## Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
 
-- **HTML5** e **CSS3** para estrutura e estilização.
-- **GitHub Pages** para o deploy e disponibilização do projeto.
+- **HTML5** e **CSS3**: Essenciais para a construção e estilização da estrutura visual.
+- **GitHub Pages**: Plataforma de deploy para garantir que a aplicação esteja facilmente acessível e compartilhável com o público.
 
-## Como Usar
+## 📂 Como Executar Localmente
 
-1. Clone este repositório:
+1. Clone o repositório para o seu ambiente local:
    ```bash
    git clone https://github.com/karlosqwer/telas-certsempre.git
