@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+   <html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="assets/img/logo-_2_.ico" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Certsempre</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <img src="assets/img/logo (2).png" alt="">
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Início</a></li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Boleto <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-money-dollar-circle-fill"></i> Liberar
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Exibir todos
+                           </a>
+                        </li>
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+               
+
+                           <ul class="dropdown__submenu">
+      
+                              
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Conferência <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-upload-2-line"></i> Importar
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Exibir todos
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-list-check"></i> Fila
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <!--=============== DROPDOWN 3 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Nota <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-file-list-3-line"></i> Lista
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-file-add-fill"></i> Solicitação
+                           </a>
+                        </li>
+
+                     </ul>
+                  </li>
+
+                  <!--=============== DROPDOWN 4 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Perfil <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Editar perfil
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-logout-box-r-line"></i> Sair
+                           </a>
+                        </li>
+
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <!--=============== LIBERAÇÃO ===============-->
+      <div class="login-box">
+         <div class="login-header">
+            <div class="logo-liberacao">
+               <img src="assets/img/logo (2).png" alt="">
+            </div>
+             <header>LIBERE SEU BOLETO</header>
+         </div>
+         <div class="input-box">
+             <input type="text" class="input-field" placeholder="Número do boleto" autocomplete="off" required>
+         </div>
+         
+         <div class="input-submit">
+             <button class="submit-btn" id="submit"></button>
+             <label for="submit">LIBERAR</label>
+         </div>
+     </div>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
