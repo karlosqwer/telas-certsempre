@@ -27,3 +27,34 @@ Veja o projeto em funcionamento por meio do [GitHub Pages](https://karlosqwer.gi
 1. Clone o repositório para o seu ambiente local:
    ```bash
    git clone https://github.com/karlosqwer/telas-certsempre.git
+
+
+# Tela de Liberação de Boletos - Certsempre Automação
+
+![liberacao](https://github.com/user-attachments/assets/b2e041d0-e9f7-4aea-b9f4-617381914d8b)
+
+
+Este repositório contém a tela de liberação de boletos desenvolvida para o projeto **Certsempre Automação**. A interface foi criada para proporcionar uma navegação intuitiva e funcional, facilitando o processo de liberação de boletos para os usuários da plataforma.
+
+## 🖥️ Demonstração
+
+A tela apresenta um **navbar responsivo** com dropdowns e um campo de liberação de boletos centralizado, garantindo uma experiência de usuário amigável e acessível. Você pode visualizar a aplicação através do deploy realizado no GitHub Pages.
+
+## ✨ Funcionalidades
+
+- **Navbar Responsivo com Dropdowns**: Menu de navegação adaptado para dispositivos móveis e desktops, com dropdowns que oferecem fácil acesso a diferentes seções.
+- **Campo de Liberação de Boletos**: Um formulário centralizado que permite ao usuário inserir o número do boleto e realizar a liberação de forma prática.
+- **JavaScript para Interatividade**: Implementação de JavaScript para o controle do dropdown e outras interações, proporcionando uma experiência de usuário dinâmica.
+
+## 🔧 Tecnologias Utilizadas
+
+- **HTML5 e CSS3**: Para a estrutura e estilização da interface.
+- **JavaScript**: Para funcionalidades interativas e controle do dropdown.
+- **GitHub Pages**: Para o deploy e hospedagem da aplicação.
+
+## 📂 Como Usar
+
+Clone este repositório para ter uma cópia local:
+
+```bash
+git clone https://github.com/karlosqwer/telas-certsempre.git
